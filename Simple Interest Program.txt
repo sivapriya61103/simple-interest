@@ -1,0 +1,28 @@
+DESCRIPTION: 
+
+Simple Interest=(P*R*T)/100 Where P is the principal amount, 
+R is the rate of the interset, and the T is the total time of interest on the amount 
+The units of rate are decimal or percentage.The unit of t is years.
+
+PROGRAM:
+
+def simple_interest(p,t,r):
+    print('The principal is', p)
+    print('The time period is', t)
+    print('The rate of interest is',r) 
+    si = (p * t * r)/100 
+    print('The Simple Interest is', si)
+P = int(input("Enter the principle amount :"))
+T = int(input("Enter the time period :"))
+R = int(input("Enter the rate of interest :"))
+simple_interest(P,T,R)
+
+Input:
+
+Enter the principle amount :3000
+Enter the time period :7
+Enter the rate of interest :1
+
+Output: 
+
+The simple interest is 210.0
